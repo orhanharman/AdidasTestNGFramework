@@ -17,7 +17,7 @@ public class ProductsPage extends BasePage {
     public WebElement addToCart;
 
     //this method will return the price of the product, the price right before adding to cart
-    private int productAdder(String category, String product){
+    public int productAdder(String category, String product){
 
         //click on any category, laptops, phones, monitors etc
         driver.findElement(By.linkText(category)).click();

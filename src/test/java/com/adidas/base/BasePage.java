@@ -23,4 +23,6 @@ public abstract class BasePage {
 @FindBy(linkText = "Cart")
     public WebElement cart;
 
+    public abstract int productAdder(String category, String product);
+
 }
