@@ -3,6 +3,10 @@ package com.adidas.utilities;
 import java.io.FileInputStream;
 import java.util.Properties;
 
+/**
+ * reads the properties file 'configuration.properties'
+ */
+
 public class ConfigurationReader {
 //this class has only one job, read "configuration.properties" that we created, and get the key names in there,
 //then give us the values
